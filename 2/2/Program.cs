@@ -3,3 +3,11 @@
 Console.WriteLine("ingrese tamaño de matriz (n * n)");
 int .TryParse(Console.ReadLine(), out int n);
 int[,] matriz = new int[n,n];
+for (int i = 0; i < n; i++)
+{
+	for (int j = 0; j < n; j++)
+	{
+		Console.WriteLine($"valor[{i},{j}]");
+		int.TryParse(Console.ReadLine(), out matriz[i, j]);
+	}
+}
