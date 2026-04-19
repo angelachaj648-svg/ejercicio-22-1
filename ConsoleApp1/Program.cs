@@ -4,3 +4,12 @@ int.TryParse(Console.ReadLine(), out int filas);
 Console.WriteLine("Ingrese el numero de columans");
 int.TryParse(Console.ReadLine(), out int columnas);
 
+int[,] matris = new int[filas,columnas];
+for (int i = 0; i < filas; i++)
+{
+	for (int j = 0; j < columnas; j++)
+	{
+		Console.WriteLine($"Valor○[{i},{j}]: ");
+		int.TryParse(Console.ReadLine(), out matris[i, j]);
+	}
+}
