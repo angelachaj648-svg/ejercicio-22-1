@@ -11,3 +11,18 @@ for (int i = 0; i < n; i++)
 		int.TryParse(Console.ReadLine(), out matriz[i, j]);
 	}
 }
+Console.WriteLine("fila a mostrar");
+int.TryParse(Console.ReadLine(),out int fila);
+if (fila >= 0 && fila < n)
+{
+	Console.WriteLine("Fila");
+	for (int j = 0; j < n; j++)
+	{
+		Console.WriteLine(matriz[fila, j] + " ");
+	}
+}
+else
+{
+	Console.WriteLine("Fila invalida");
+}
+
