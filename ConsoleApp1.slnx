@@ -1,5 +1,7 @@
 <Solution>
   <Project Path="../../3/3/3.csproj" />
+  <Project Path="../../4 ej/4 eje/4 eje.csproj" Id="1e0adaf5-857a-405f-8b25-9eb3037bba02" />
   <Project Path="2/2/2.csproj" />
+  <Project Path="4/4/4.csproj" />
   <Project Path="ConsoleApp1/ConsoleApp1.csproj" />
 </Solution>
