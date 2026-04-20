@@ -15,3 +15,7 @@ for (int i = 0; i < filas; i++)
 		Console.Write($"Elemento [{i},{j}]: ");
 		matriz[i, j] = int.Parse(Console.ReadLine());
 	}
+int suma = 0;
+for (int i = 0; i < filas; i++)
+	for (int j = 0; j < columnas; j++)
+		suma += matriz[i, j];
